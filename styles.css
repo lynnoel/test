@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, sans-serif;
+  background: #f4f6fb;
+  color: #222;
+}
+
+main {
+  text-align: center;
+  padding: 2rem 3rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  color: #4a5fd8;
+}
+
+p {
+  margin: 0;
+  color: #666;
+}
