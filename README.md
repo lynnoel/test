@@ -1,6 +1,6 @@
 # test
 
-Lynn's sandbox repo for trying out Git, GitHub, and Claude Code workflows. This is a test.
+Lynn's sandbox repo for trying out Git, GitHub, and Claude Code workflows. Another test.
 
 ## Status
 Experimental. Nothing here is production code, and branches may be deleted at any time.
