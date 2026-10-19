@@ -1,5 +1,7 @@
 const heading = document.querySelector("h1");
+let clicked = false;
 
 heading.addEventListener("click", () => {
-  heading.textContent = "You clicked me!";
+  clicked = !clicked;
+  heading.textContent = clicked ? "You clicked me!" : "Hello, World!";
 });
