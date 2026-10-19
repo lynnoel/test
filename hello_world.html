@@ -5,12 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello World</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
 </head>
 <body>
   <main>
-    <h1>Hello, World!</h1>
+    <h1 id="heading"><button type="button" id="heading-toggle">Hello, World!</button></h1>
     <p>This page is styled with styles.css.</p>
+    <section class="color-picker">
+      <label for="color-input">Pick a color for the heading:</label>
+      <input type="color" id="color-input" value="#4a5fd8">
+      <button type="button" id="color-reset">Reset</button>
+      <p id="color-warning" role="status" hidden>
+        That color is hard to read on a white background.
+      </p>
+    </section>
   </main>
-  <script src="javascript.js"></script>
 </body>
 </html>
